@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 350px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  background-color: #f8f8f8;
+}
